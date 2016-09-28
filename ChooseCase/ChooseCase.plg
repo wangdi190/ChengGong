@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ChooseCase - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\wangdi\AppData\Local\Temp\RSPE5D1.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/ChooseCase.pdb" /debug /machine:I386 /def:".\ChooseCase.def" /out:"E:\wangdi\四川电压无功\bin_avc\ChooseCase.dll" /implib:"Debug/ChooseCase.lib" /pdbtype:sept /libpath:"../lib" 
+".\Debug\aseDlg.obj"
+".\Debug\BCMenu.obj"
+".\Debug\BtnST.obj"
+".\Debug\ChooseCase.obj"
+".\Debug\ExTabWnd.obj"
+".\Debug\FirstDlg.obj"
+".\Debug\MainFrame.obj"
+".\Debug\MyListCtrl.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ChooseCase.res"
+]
+Creating command line "link.exe @C:\Users\wangdi\AppData\Local\Temp\RSPE5D1.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+ChooseCase.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,119 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by seldev.rc
+//
+#define IDD_SELANLDEV                   13000
+#define IDC_DEV                         13001
+#define IDC_LDEV                        13002
+#define IDD_SVALDLG                     13002
+#define IDD_SELSTA                      13004
+#define IDD_SELZONE                     13006
+#define IDC_YH                          13008
+#define IDD_SELDEV                      13008
+#define IDC_XS                          13009
+#define IDC_NAME                        13010
+#define IDI_ICON1                       13010
+#define IDD_DEV_PT                      13011
+#define IDC_DTYPE                       13012
+#define IDI_ICON2                       13012
+#define IDC_LIST1                       13013
+#define IDD_DEVSTATION                  13013
+#define IDC_NU                          13014
+#define IDD_DEVZONE                     13015
+#define IDC_BH                          13016
+#define IDC_DEVNM                       13017
+#define IDI_ICON3                       13017
+#define IDC_CREATE                      13018
+#define IDD_DEVBUS                      13018
+#define IDC_DELETE                      13019
+#define IDD_DEVSWITCH                   13020
+#define IDD_DEVLOAD                     13021
+#define IDC_STATION                     13022
+#define IDD_DEVSHUNT                    13022
+#define IDC_VL                          13023
+#define IDD_DEVSREACT                   13023
+#define IDC_ELENO                       13024
+#define IDC_ZONE                        13024
+#define IDD_DEVGROUND                   13024
+#define IDC_STANO                       13025
+#define IDC_BUS                         13025
+#define IDD_DEVGEN                      13025
+#define IDD_DEVTRAN1                    13026
+#define IDD_DEVTRAN2                    13027
+#define IDC_SZONE                       13028
+#define IDD_DEVSVC                      13028
+#define IDC_MODE                        13029
+#define IDD_DEVCONV                     13029
+#define IDD_DEVLINE                     13030
+#define IDD_DEVDLINE                    13031
+#define IDC_SELTEXT                     13032
+#define IDD_SELPIE                      13032
+#define IDC_COMBO1                      13033
+#define IDD_SELRESVR                    13035
+#define IDC_PNU                         13036
+#define IDD_DEFSECTDLG                  13036
+#define IDC_LNU                         13037
+#define IDC_PTNU                        13037
+#define IDD_ALMLSTDLG                   13038
+#define IDD_YBSELDLG                    13039
+#define IDC_MODI                        13040
+#define IDC_MAXV                        13044
+#define IDC_MINV                        13045
+#define IDC_VNU                         13047
+#define IDC_DEGNU                       13048
+#define IDC_ELENU                       13049
+#define IDC_STANU                       13050
+#define IDC_MAXP                        13051
+#define IDC_MINP                        13052
+#define IDC_QNU                         13053
+#define IDC_QST                         13054
+#define IDC_QTNU                        13054
+#define IDC_ZXNU                        13055
+#define IDC_BUSF                        13056
+#define IDC_BUST                        13057
+#define IDC_BUSL                        13058
+#define IDC_TAPNU                       13059
+#define IDC_BUSH                        13060
+#define IDC_BUSM                        13061
+#define IDC_VH                          13062
+#define IDC_VM                          13063
+#define IDC_TAPHNU                      13064
+#define IDC_TAPMNU                      13065
+#define IDC_TAPLNU                      13066
+#define IDC_VHNU                        13067
+#define IDC_VMNU                        13068
+#define IDC_ZONEF                       13068
+#define IDC_VLNU                        13069
+#define IDC_ZONET                       13069
+#define IDC_ZST                         13069
+#define IDC_LIST2                       13073
+#define IDC_SHOWALL                     13074
+#define IDC_DMNAME                      13075
+#define IDC_DEFINED                     13076
+#define IDC_ADDDM                       13077
+#define IDC_RL                          13078
+#define IDC_PAR                         13079
+#define IDC_DELETEDM                    13080
+#define IDC_DELETELINE                  13081
+#define IDC_MODIDM                      13082
+#define IDC_LINE                        13083
+#define IDC_LINEID                      13084
+#define IDC_ACDC                        13085
+#define IDC_YBSEL                       13086
+#define IDC_SELFLD                      13087
+#define IDC_DEVLST                      13088
+#define IDC_PYJS                        13089
+#define IDC_ADDYS                       13090
+#define IDC_SUBYS                       13091
+#define IDC_MSG                         13093
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        13041
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         13094
+#define _APS_NEXT_SYMED_VALUE           13000
+#endif
+#endif

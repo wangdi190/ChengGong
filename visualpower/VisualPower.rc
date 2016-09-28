@@ -1,0 +1,1241 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\VisualPower.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\VisualPower.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\gs.ICO"
+IDI_ICON2               ICON    DISCARDABLE     "res\\QuickVie.ico"
+IDI_ICON3               ICON    DISCARDABLE     "res\\icon3.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_HISBAR              BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\bitmap3.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\cd.bmp"
+IDR_DMBAR               BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDR_SENBAR              BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDR_LOWFBAR             BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\OTHBMP.BMP"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\alarm.bmp"
+IDR_CTLBAR              BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDR_SWSOEBAR            BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDR_MDLBAR              BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDR_FUNBAR              BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  21, 21
+BEGIN
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_FILE_OPEN
+    SEPARATOR
+    BUTTON      ID_NORMAL
+    BUTTON      ID_MOVEPIC
+    BUTTON      ID_PARTZOOM
+    BUTTON      ID_ZOOMIO
+    BUTTON      ID_ZOOMNML
+    BUTTON      ID_ZOOMALL
+    SEPARATOR
+    BUTTON      ID_LASTHMI
+    BUTTON      IDC_NEXTHMI
+    SEPARATOR
+    BUTTON      IDC_SHOWDGX
+    BUTTON      ID_DGXSELCB
+    BUTTON      IDC_CFGATTR
+    BUTTON      IDC_FLOW
+    SEPARATOR
+    BUTTON      ID_ROTATE
+    BUTTON      ID_NORMALNS
+    BUTTON      IDC_OPENMENUWIN
+    BUTTON      ID_CHANGE
+    BUTTON      IDC_SHOWPLATE
+END
+
+IDR_HISBAR TOOLBAR DISCARDABLE  21, 21
+BEGIN
+    BUTTON      ID_SHOWTEXT
+    SEPARATOR
+    BUTTON      IDC_SPDOWN
+    BUTTON      ID_SPSHOW
+    BUTTON      IDC_SPUP
+    SEPARATOR
+    BUTTON      ID_GOTOTOP
+    BUTTON      ID_FASTREV
+    BUTTON      ID_PLAY
+    BUTTON      ID_FASTFW
+    BUTTON      ID_PAUSE
+    SEPARATOR
+    BUTTON      ID_SHOWTIME
+END
+
+IDR_DMBAR TOOLBAR DISCARDABLE  21, 21
+BEGIN
+    BUTTON      IDC_SECTFLW
+    BUTTON      IDC_SECTDF
+    BUTTON      IDC_SHOWSTF
+END
+
+IDR_SENBAR TOOLBAR DISCARDABLE  21, 21
+BEGIN
+    BUTTON      IDC_LINESEN
+    BUTTON      IDC_BUSSEN
+END
+
+IDR_LOWFBAR TOOLBAR DISCARDABLE  21, 21
+BEGIN
+    BUTTON      IDC_CTLFRE
+    BUTTON      AFX_ID_PREVIEW_NEXT
+END
+
+IDB_BITMAP1 TOOLBAR DISCARDABLE  32, 32
+BEGIN
+    BUTTON      ID_BUTTON32882
+    BUTTON      ID_BUTTON32883
+    BUTTON      ID_BUTTON32884
+    BUTTON      ID_BUTTON32885
+    BUTTON      ID_BUTTON32886
+    BUTTON      ID_BUTTON32887
+    BUTTON      ID_BUTTON32888
+    BUTTON      ID_BUTTON32889
+    BUTTON      ID_BUTTON32890
+    BUTTON      ID_BUTTON32891
+    BUTTON      ID_BUTTON32892
+    BUTTON      ID_BUTTON32893
+    BUTTON      ID_BUTTON32894
+    BUTTON      ID_BUTTON32895
+END
+
+IDR_CTLBAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_PAGEUP
+    BUTTON      ID_LEFT
+    BUTTON      ID_RIGHT
+    BUTTON      ID_PAGEDOWN
+    BUTTON      IDC_DELCHILD
+END
+
+IDR_SWSOEBAR TOOLBAR DISCARDABLE  21, 21
+BEGIN
+    BUTTON      IDC_GETNEWSOE
+    BUTTON      ID_SOEGOTOTOP
+    BUTTON      IDC_PLAYSOE
+    BUTTON      IDC_PAUSESOE
+    BUTTON      IDC_SOEMSG
+END
+
+IDR_MDLBAR TOOLBAR DISCARDABLE  21, 21
+BEGIN
+    BUTTON      IDC_MSELLINE
+END
+
+IDR_FUNBAR TOOLBAR DISCARDABLE  21, 21
+BEGIN
+    BUTTON      ID_BTNRETURN
+    BUTTON      ID_SHOWFUNCTION
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "打开界面文件(&OpenFile)",     ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "打印当前页面(&P)",            ID_FILE_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "保存为&BMP文件",              IDC_SAVETOBMP
+        MENUITEM "保存为&JPEG文件",             IDC_SAVETOJPG
+        MENUITEM SEPARATOR
+        MENUITEM "重新登陆用户(&R)",            IDC_RELOGIN
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "基本功能(&B)"
+    BEGIN
+        MENUITEM "层面控制(&C)",                IDC_CTLLAYER
+        MENUITEM "变压器负载显示配置",          IDC_CFGTRANS
+        MENUITEM SEPARATOR
+        MENUITEM "基本潮流监视(&F)",            IDC_BASFLOW
+        MENUITEM "显示等高线(&B)",              IDC_SHOWDGX
+        MENUITEM "断面潮流(&S)",                IDC_DMFLOW
+        MENUITEM "发电机有功出力及备用监视(&P)", IDC_GENREV
+        MENUITEM "无功出力及备用监视(&Q)",      IDC_GENREVQ
+        MENUITEM "变压器负载率(&R)",            IDC_TRANREV
+        MENUITEM "变压器温度监视(&M)",          IDC_BYQWD
+        MENUITEM SEPARATOR
+        MENUITEM "预定义断面监视(&p)",          IDC_PREDMJS
+    END
+    POPUP " 工具(&T)"
+    BEGIN
+        MENUITEM "绘图工具",                    ID_TOOL_PAINT
+        MENUITEM "内存库管理",                  ID_TOOL_DBM
+        MENUITEM SEPARATOR
+        MENUITEM "案例管理",                    ID_TOOL_CASEMG
+        MENUITEM "评估管理",                    ID_TOOL_EST
+        MENUITEM SEPARATOR
+        MENUITEM "评估历史回放",                ID_TOOL_HISTORY
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "查看初始断面",                ID_TOOL_SECT
+        MENUITEM "查看估计断面",                ID_TOOL_SE
+        MENUITEM "查看仿真断面",                ID_TOOL_EM
+    END
+    POPUP "窗口(&W)"
+    BEGIN
+        MENUITEM "新建可视化窗口(&N)",          IDC_NEWWINDOW
+        MENUITEM "主界面(&M)",                  IDC_MAINPAGE
+        MENUITEM "导航器(&V)",                  IDC_NAVIGATION
+        MENUITEM "显示等高线色谱(&R)",          IDC_SHOWCRMAP
+        MENUITEM "显示/隐藏告警条(&G)",         IDC_SHOWSYS
+        MENUITEM SEPARATOR
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "主变重载自动弹出",            IDC_SV_AUTO
+        MENUITEM "变压器重载监视窗",            IDC_SVWIN
+        MENUITEM SEPARATOR
+        MENUITEM "全屏幕显示(&F)",              IDC_FULLSCR
+        MENUITEM "打开索引(&I()",               IDC_OPENMENUWIN
+        MENUITEM SEPARATOR
+        MENUITEM "关闭当前窗口",                IDC_DELCHILD
+    END
+    MENUITEM "切换",                        ID_CHANGE
+    POPUP "关于(&A)"
+    BEGIN
+        MENUITEM "关于 VisualPower(&A)...",     ID_APP_ABOUT
+    END
+END
+
+IDR_RMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "右键菜单", GRAYED
+    BEGIN
+        MENUITEM "查看设备参数",                IDC_VIEWDEV
+        MENUITEM "变压器重载监视",              IDC_SVOPT
+    END
+    POPUP "N2MENU"
+    BEGIN
+        MENUITEM "重载、过载设备情况",          IDC_N12EFT
+        MENUITEM "重载、过载设备3D显示",        IDC_N12EFT3D
+    END
+    POPUP "N3MENU"
+    BEGIN
+        MENUITEM "发电机投运情况",              IDC_GENMSG
+        MENUITEM "变压器投运情况",              IDC_TRANMSG
+    END
+END
+
+IDR_FMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "fmenu"
+    BEGIN
+        MENUITEM "正常显示",                    ID_NOFULLSCR
+        MENUITEM "正常光标",                    ID_NORMAL
+        MENUITEM SEPARATOR
+        POPUP "图形操作"
+        BEGIN
+            MENUITEM "旋转画面",                    ID_ROTATE
+            MENUITEM "拖动放大",                    ID_ZOOMIO
+            MENUITEM "移动画面",                    ID_MOVEPIC
+            MENUITEM "显示或隐藏等高线",            IDC_SHOWDGX
+        END
+        POPUP "系统功能"
+        BEGIN
+            MENUITEM "基本潮流显示",                IDC_BASFLOW
+            MENUITEM "发电机有功出力及备用监视",    IDC_GENREV
+            MENUITEM "无功出力及备用监视",          IDC_GENREVQ
+            MENUITEM "变压器负载率",                IDC_TRANREV
+            MENUITEM "变压器温度监视",              IDC_BYQWD
+        END
+        MENUITEM "主界面",                      IDC_MAINPAGE
+    END
+END
+
+IDR_DGXMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "等高线"
+    BEGIN
+        MENUITEM "节点电压",                    IDC_DGXBUS
+        MENUITEM "节点电压高",                  IDC_DGXBUSHI
+        MENUITEM "节点电压低",                  IDC_DGXBUSLO
+        MENUITEM "输电线负载",                  IDC_LINELOAD
+        MENUITEM "变压器负载",                  IDC_TRANLOAD
+    END
+END
+
+IDR_FLOWMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "潮流选择"
+    BEGIN
+        MENUITEM "无潮流箭头",                  IDC_NOFLOW
+        MENUITEM "有功潮流箭头",                IDC_FLOWP
+        MENUITEM "无功潮流箭头",                IDC_FLOWQ
+        MENUITEM "有功+无功潮流",               IDC_FLOWPQ
+    END
+END
+
+IDR_AMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "pop"
+    BEGIN
+        MENUITEM "显示预警列表",                IDC_SHOWLST
+        MENUITEM "推出预警画面",                IDC_PUSHPIC
+    END
+END
+
+IDR_TABLEMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "确认操作"
+    BEGIN
+        MENUITEM "全部确认",                    IDC_CHECKALL
+        MENUITEM "取消全部确认",                IDC_UNCHECKALL
+    END
+    POPUP "刷新数据"
+    BEGIN
+        MENUITEM "刷新数据",                    IDC_RELOAD
+    END
+    POPUP "显示过滤"
+    BEGIN
+        MENUITEM "全部显示",                    IDC_SHOWALL
+        MENUITEM "显示越限部分",                IDC_SHOWALM
+    END
+END
+
+IDR_PLATEMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "挂牌选择"
+    BEGIN
+        MENUITEM "不显示挂牌",                  IDC_NO_PLATE
+        MENUITEM "显示检修挂牌",                IDC_SHOWJX_PLATE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_ESCAPE,      ID_NOFULLSCR,           VIRTKEY, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 242, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 VisualPower"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,7,14,53,69
+    LTEXT           "VisualPower 4.0SC 版",IDC_STATIC,66,21,119,8,
+                    SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2004-2009 四川大学",IDC_STATIC,66,42,151,8
+    DEFPUSHBUTTON   "确定",IDOK,83,124,50,14,WS_GROUP
+    LTEXT           "四川大学电气信息学院研制",IDC_STATIC,67,64,102,10
+    LTEXT           "本软件受国际软件法保护，任何未经许可的使用均构成侵权行为，将受到法律制裁。",
+                    IDC_STATIC,13,84,214,22
+END
+
+IDD_COLORDLG DIALOGEX 0, 0, 70, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "等高线色谱"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+END
+
+IDD_DISPATTR DIALOG DISCARDABLE  0, 0, 309, 291
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "显示属性配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "保存生效",IDOK,83,271,40,14
+    PUSHBUTTON      "取消",IDCANCEL,203,271,40,14
+    CONTROL         "发电机动态显示",IDC_GENDT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,110,68,10
+    CONTROL         "线路负载特显",IDC_FLOWPIE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,120,70,11
+    COMBOBOX        IDC_DGXTYPE,12,23,66,104,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "等高线透明背景",IDC_TRANDGX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,143,68,10
+    CONTROL         "单线等高线",IDC_ONELINE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,154,67,9
+    LTEXT           "等高线平滑度(1-30):",IDC_STATIC,11,56,78,9
+    EDITTEXT        IDC_SMOOTH,12,70,28,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "高画质,高CPU消耗",IDC_CPU,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,96,79,14
+    GROUPBOX        "色谱配置",IDC_STATIC,3,2,302,90
+    LTEXT           "最大值:",IDC_STATIC,105,16,28,11
+    LTEXT           "中值1:",IDC_STATIC,105,30,28,10
+    LTEXT           "中间值:",IDC_STATIC,105,45,28,10
+    LTEXT           "中值2:",IDC_STATIC,105,61,28,10
+    LTEXT           "最小值:",IDC_STATIC,105,77,28,11
+    EDITTEXT        IDC_V1,137,15,39,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_V2,137,30,39,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_V3,137,45,39,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_V4,137,60,39,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_V5,137,75,39,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_C1,"Static",SS_BLACKFRAME,179,15,13,12
+    CONTROL         "",IDC_C2,"Static",SS_BLACKFRAME,179,30,13,11
+    CONTROL         "",IDC_C3,"Static",SS_BLACKFRAME,179,45,13,11
+    CONTROL         "",IDC_C4,"Static",SS_BLACKFRAME,179,60,13,11
+    CONTROL         "",IDC_C5,"Static",SS_BLACKFRAME,179,76,13,11
+    PUSHBUTTON      "",IDC_CC1,194,15,10,11
+    PUSHBUTTON      "",IDC_CC2,194,30,10,11
+    PUSHBUTTON      "",IDC_CC3,194,45,10,11
+    PUSHBUTTON      "",IDC_CC4,194,60,10,11
+    PUSHBUTTON      "",IDC_CC5,194,76,10,11
+    CONTROL         "",IDC_DEMOCOLOR,"Static",SS_BLACKFRAME,210,16,89,71
+    PUSHBUTTON      "缺省值",IDC_DEFAULTCOLOR,12,38,33,14
+    LTEXT           "有功潮流线箭头参考功率:",IDC_STATIC,106,98,97,10
+    LTEXT           "选择色谱:",IDC_STATIC,12,14,65,9
+    GROUPBOX        "颜色配置",IDC_STATIC,7,201,298,56
+    COMBOBOX        IDC_CNAME,99,215,100,144,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "",IDC_SYSCOLOR,"Static",SS_BLACKFRAME,205,215,48,12
+    PUSHBUTTON      "修改",IDC_MODISC,263,215,33,12
+    EDITTEXT        IDC_ARROWP,203,96,37,12,ES_AUTOHSCROLL
+    LTEXT           "MW",IDC_STATIC,248,97,12,10
+    LTEXT           "无功潮流线箭头参考功率:",IDC_STATIC,107,116,95,10
+    EDITTEXT        IDC_ARROWQ,203,114,37,12,ES_AUTOHSCROLL
+    LTEXT           "MVar",IDC_STATIC,248,118,24,10
+    LTEXT           "线路百分饼图显示阀值:",IDC_STATIC,115,149,88,10
+    EDITTEXT        IDC_VPPE,203,147,37,12,ES_AUTOHSCROLL
+    LTEXT           "X100%",IDC_STATIC,248,149,26,12
+    LTEXT           "电流潮流线箭头参考电流:",IDC_STATIC,107,133,95,10
+    EDITTEXT        IDC_ARROWI,203,131,37,12,ES_AUTOHSCROLL
+    LTEXT           "A",IDC_STATIC,248,135,19,10
+    LTEXT           "系统综合颜色配置:",IDC_STATIC,19,217,75,14
+    LTEXT           "灵敏度分类配置:",IDC_STATIC,19,235,70,13
+    COMBOBOX        IDC_SENCTYPE,99,231,100,144,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "",IDC_SENCOLOR,"Static",SS_BLACKFRAME,205,233,48,12
+    PUSHBUTTON      "修改",IDC_MODISC2,263,233,33,12
+    LTEXT           "发电机备用3D显示时最小容量:",IDC_STATIC,91,164,112,11
+    EDITTEXT        IDC_GEN3DMINP,203,163,38,12,ES_AUTOHSCROLL
+    LTEXT           "MW",IDC_STATIC,247,165,21,10
+END
+
+IDD_LAYERDLG DIALOG DISCARDABLE  0, 0, 197, 147
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "显示层面控制"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,38,123,50,14
+    PUSHBUTTON      "取消",IDCANCEL,122,124,50,14
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_AUTOARRANGE | LVS_EDITLABELS | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,2,3,191,110
+END
+
+IDD_LOGIN DIALOG DISCARDABLE  0, 0, 189, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Login(联机)"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,40,78,50,14
+    PUSHBUTTON      "取消",IDCANCEL,123,78,50,14
+    ICON            IDI_ICON3,IDC_STATIC,5,8,20,20
+    LTEXT           "用户名:",IDC_STATIC,39,12,31,9
+    LTEXT           "口  令:",IDC_STATIC,39,30,29,10
+    EDITTEXT        IDC_PASSWORD,74,28,98,12,ES_PASSWORD | ES_AUTOHSCROLL
+    COMBOBOX        IDC_USERNAME,74,11,98,84,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "记住用户和密码",IDC_SAVEUSRPW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,74,51,75,13
+END
+
+IDD_NVGDLG DIALOG DISCARDABLE  0, 0, 76, 59
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "导航器"
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_PRTDLG DIALOG DISCARDABLE  0, 0, 202, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "矢量图形打印选项"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "认可",IDOK,41,71,50,14
+    PUSHBUTTON      "取消",IDCANCEL,120,71,50,14
+    ICON            IDI_ICON1,IDC_STATIC,6,8,20,20
+    LTEXT           "打印模式:",IDC_STATIC,39,12,39,11
+    LTEXT           "打印倍率:",IDC_STATIC,38,34,41,10
+    COMBOBOX        IDC_COMBO1,81,11,104,105,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,81,32,104,85,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_SECTFLOW DIALOG DISCARDABLE  0, 0, 301, 171
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "用户自定义断面"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_NAME,58,16,60,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "加入到自定义",IDC_ADD,54,89,55,14
+    LISTBOX         IDC_LIST1,131,30,96,90,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "断面名称:",IDC_SECT2,13,18,39,9
+    LTEXT           "    输入名字和容量后后可将本次断面保存到自定义断面中，断面名称必须不同。",
+                    IDC_SECT1,12,52,102,30
+    GROUPBOX        "自定义",IDC_SECT3,6,3,292,127
+    LTEXT           "已加入的断面:",IDC_STATIC,132,18,64,9
+    PUSHBUTTON      "删除选择断面",IDC_DELETE,54,106,55,14
+    PUSHBUTTON      "保存退出",IDOK,65,141,46,19
+    PUSHBUTTON      "取消",IDCANCEL,185,140,47,19
+    LTEXT           ">>",IDC_STATIC,115,92,12,11
+    LTEXT           "<<",IDC_STATIC,114,108,14,11
+    EDITTEXT        IDC_MAXP,58,31,44,12,ES_AUTOHSCROLL
+    LTEXT           "断面容量:",IDC_STATIC,12,33,43,10
+    LTEXT           "A/MW",IDC_STATIC,107,33,23,9
+    LTEXT           "修改断面容量:",IDC_STATIC,234,30,60,13
+    EDITTEXT        IDC_MAXP1,236,43,44,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "修改容量",IDC_MODIP,236,62,46,13
+END
+
+IDD_SENDLG DIALOG DISCARDABLE  0, 0, 337, 115
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "灵敏度计算"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "计算",IDOK,41,90,50,14
+    PUSHBUTTON      "取消退出",IDCANCEL,203,91,50,14
+    LTEXT           "Static",IDC_SENTYPE,2,4,332,22
+    LTEXT           "设备",IDC_DEV,4,33,323,10
+    LTEXT           "计算进度:",IDC_STATIC,4,47,42,9
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    3,60,326,11
+END
+
+IDD_VIEWDEV DIALOGEX 0, 0, 176, 121
+STYLE DS_MODALFRAME | DS_CENTERMOUSE | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "查看设备参数"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关  闭",IDOK,55,96,71,16
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,0,0,176,89,
+                    WS_EX_STATICEDGE
+END
+
+IDD_OPENPW0 DIALOG DISCARDABLE  0, 0, 337, 21
+STYLE DS_3DLOOK | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "选择页面名称:",IDC_STATIC,5,3,53,10
+    COMBOBOX        IDC_PAGE,59,2,124,135,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "页面号:",IDC_STATIC,187,4,31,10
+    EDITTEXT        IDC_PNO,218,4,25,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+END
+
+IDD_CFGHIS DIALOG DISCARDABLE  0, 0, 366, 183
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "历史回放设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "历史回放",IDOK,117,158,50,14
+    PUSHBUTTON      "取消",IDCANCEL,226,158,50,14
+    LTEXT           "历史回放开始时间:",IDC_STATIC,13,27,72,11
+    CONTROL         "DateTimePicker1",IDC_DATE1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,85,23,
+                    77,15
+    LTEXT           "历史回放结束时间:",IDC_STATIC,13,53,72,14
+    CONTROL         "DateTimePicker1",IDC_DATE2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | WS_TABSTOP,85,50,
+                    77,15
+    CONTROL         "DateTimePicker2",IDC_TIME1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,172,23,55,
+                    15
+    CONTROL         "DateTimePicker2",IDC_TIME2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,172,49,55,
+                    15
+    GROUPBOX        "基本回放参数设定",IDC_STATIC,5,7,356,67
+    PUSHBUTTON      "返回历史断面索引",IDC_GETHISLIST,243,23,78,16
+    LTEXT           "断面索引数:",IDC_STATIC,245,53,50,11
+    EDITTEXT        IDC_DMSUM,295,52,52,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+    LTEXT           "播放速度:",IDC_STATIC,13,100,39,9
+    EDITTEXT        IDC_SPEED,55,97,42,13,ES_AUTOHSCROLL
+    LTEXT           "秒/断面",IDC_STATIC,103,99,34,11
+    LTEXT           "播放速度:指历史每个断面间隔时间，当设为0时表示按计算机最快速度回放，正常情况设为5秒一个断面。",
+                    IDC_STATIC,14,119,337,21
+    GROUPBOX        " 播放速度控制",IDC_STATIC,7,79,354,63
+END
+
+IDD_ALARMDLG DIALOGEX 0, 0, 200, 50
+STYLE WS_POPUP | WS_VISIBLE | WS_BORDER
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+END
+
+IDD_DMDLG DIALOGEX 0, 0, 553, 305
+STYLE WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE
+CAPTION "预定义断面监视"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+END
+
+IDD_TABLEDLG DIALOGEX 0, 0, 196, 357
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "设备预警详细清单"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,0,21,196,336,
+                    WS_EX_STATICEDGE
+    CONTROL         "预警音效",IDC_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,2,49,10
+END
+
+IDD_PRECFGDLG DIALOG DISCARDABLE  0, 0, 317, 229
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "预警配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "保存生效",IDOK,82,204,50,14
+    PUSHBUTTON      "取消",IDCANCEL,195,204,50,14
+    LISTBOX         IDC_LIST1,16,23,191,60,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "声音提示",IDC_SOUND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,231,28,55,12
+    CONTROL         "是否弹出窗口",IDC_POP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,231,48,74,12
+    CONTROL         "闪烁告警",IDC_FLASH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,231,70,53,13
+    GROUPBOX        "预警行为配置",IDC_STATIC,3,7,311,84
+    GROUPBOX        "预警限值设置",IDC_STATIC,3,101,310,90
+    LTEXT           "发电机负载率报警阀值:",IDC_STATIC,15,124,92,10
+    EDITTEXT        IDC_GEN,109,122,29,12,ES_AUTOHSCROLL
+    LTEXT           "交流线路负载率报警阀值:",IDC_STATIC,165,124,94,10
+    LTEXT           "%",IDC_STATIC,139,124,14,10
+    EDITTEXT        IDC_LINE,261,122,29,12,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,291,124,14,10
+    LTEXT           "直流线路负载率报警阀值:",IDC_STATIC,165,145,96,10
+    EDITTEXT        IDC_DCLINE,261,142,29,12,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,293,146,14,10
+    LTEXT           "二绕变负载率报警阀值:",IDC_STATIC,15,142,88,10
+    EDITTEXT        IDC_TFM1,109,140,29,12,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,139,142,14,10
+    LTEXT           "三绕变负载率报警阀值:",IDC_STATIC,15,161,88,10
+    EDITTEXT        IDC_TFM2,109,160,29,12,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,139,163,14,10
+    LTEXT           "断面潮流负载率报警阀值:",IDC_STATIC,165,165,94,10
+    EDITTEXT        IDC_DM,261,162,29,12,ES_AUTOHSCROLL
+    LTEXT           "%",IDC_STATIC,293,166,14,10
+END
+
+IDD_SOEDLG DIALOG DISCARDABLE  0, 0, 223, 115
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SOE回放配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,35,91,50,14
+    PUSHBUTTON      "取消",IDCANCEL,141,92,50,14
+    LTEXT           "SOE回放起始时间:",IDC_STATIC,5,11,70,12
+    LTEXT           "SOE回放结束时间:",IDC_STATIC,5,30,70,12
+    CONTROL         "DateTimePicker1",IDC_DATE1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_LONGDATEFORMAT | 
+                    WS_TABSTOP,75,9,75,14
+    CONTROL         "DateTimePicker1",IDC_TIME1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,159,10,53,
+                    14
+    CONTROL         "DateTimePicker1",IDC_DATE2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_LONGDATEFORMAT | 
+                    WS_TABSTOP,75,27,75,14
+    CONTROL         "DateTimePicker1",IDC_TIME2,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,159,28,53,
+                    14
+    PUSHBUTTON      "返回时间段的SOE",IDC_GETSELSOE,6,53,74,15
+    LTEXT           "SOE事件个数:",IDC_STATIC,91,56,54,11
+    EDITTEXT        IDC_NUM,158,54,52,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER
+END
+
+IDD_GDDLG DIALOG DISCARDABLE  0, 0, 80, 104
+STYLE WS_CHILD | WS_CLIPCHILDREN
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_DIALOG_CFGTRA DIALOG DISCARDABLE  0, 0, 401, 317
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "配置变压器是否显示负载"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "保存",IDOK,239,294,50,14
+    PUSHBUTTON      "取消",IDCANCEL,311,293,50,14
+    CONTROL         "普通主变",IDC_RADIO_TYPE,"Button",BS_AUTORADIOBUTTON,24,
+                    21,57,12
+    CONTROL         "虚拟厂变",IDC_RADIO_TYPE2,"Button",BS_AUTORADIOBUTTON,
+                    89,19,53,14
+    LTEXT           "不显示负载的变压器：",IDC_STATIC,9,45,121,11
+    LTEXT           "需要显示的变压器：",IDC_STATIC,201,9,102,10
+    GROUPBOX        "变压器类别",IDC_STATIC,6,7,169,31
+    LISTBOX         IDC_LIST_HIDE,7,60,166,224,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_SHOW,225,25,170,261,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "-->",IDC_BUTTON_DEL,180,107,41,16
+    PUSHBUTTON      "<--",IDC_BUTTON_ADD,179,175,40,16
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,0,0,1
+ PRODUCTVERSION 4,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "VisualPower Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "4, 0, 0, 1\0"
+            VALUE "InternalName", "VisualPower\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "VisualPower.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "VisualPower 应用程序\0"
+            VALUE "ProductVersion", "4, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_LAYERDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 140
+    END
+
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_NVGDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 69
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_PRTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 94
+    END
+
+    IDD_VIEWDEV, DIALOG
+    BEGIN
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 120
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "res\\CURSOR1.CUR"
+IDC_CURSOR2             CURSOR  DISCARDABLE     "res\\CURSOR2.CUR"
+IDC_CURSOR3             CURSOR  DISCARDABLE     "res\\CURSOR3.CUR"
+IDC_CURSOR4             CURSOR  DISCARDABLE     "res\\CURSOR4.CUR"
+IDC_CURSOR5             CURSOR  DISCARDABLE     "res\\CURSOR5.cur"
+IDC_CURSOR6             CURSOR  DISCARDABLE     "res\\CURSOR6.cur"
+IDC_CURSOR7             CURSOR  DISCARDABLE     "res\\CURSOR7.cur"
+IDC_CURSOR8             CURSOR  DISCARDABLE     "res\\CURSOR8.cur"
+IDC_CURSOR9             CURSOR  DISCARDABLE     "res\\CURSOR9.cur"
+IDC_CURSOR10            CURSOR  DISCARDABLE     "res\\CURSOR10.cur"
+IDC_CURSOR11            CURSOR  DISCARDABLE     "res\\CURSOR11.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DISPATTR DLGINIT
+BEGIN
+    IDC_DGXTYPE, 0x403, 9, 0
+0xdabd, 0xe3b5, 0xe7b5, 0xb9d1, "\000" 
+    IDC_DGXTYPE, 0x403, 11, 0
+0xdabd, 0xe3b5, 0xe7b5, 0xb9d1, 0xcdb5, "\000" 
+    IDC_DGXTYPE, 0x403, 11, 0
+0xdabd, 0xe3b5, 0xe7b5, 0xb9d1, 0xdfb8, "\000" 
+    IDC_DGXTYPE, 0x403, 11, 0
+0xe4ca, 0xe7b5, 0xdfcf, 0xa5b5, 0xabc9, "\000" 
+    IDC_DGXTYPE, 0x403, 11, 0
+0xe4b1, 0xb9d1, 0xf7c6, 0xbab8, 0xd8d4, "\000" 
+    IDC_DGXTYPE, 0x403, 11, 0
+0xe4ca, 0xe7b5, 0xdfcf, 0xe0b6, 0xabc9, "\000" 
+    IDC_CNAME, 0x403, 13, 0
+0xa2b7, 0xe7b5, 0xfabb, 0xf6b3, 0xa6c1, 0xf4b0, "\000" 
+    IDC_CNAME, 0x403, 13, 0
+0xa2b7, 0xe7b5, 0xfabb, 0xb8b1, 0xc3d3, 0xf4b0, "\000" 
+    IDC_CNAME, 0x403, 13, 0
+0xa2b7, 0xe7b5, 0xfabb, 0xecbc, 0xded0, 0xf4b0, "\000" 
+    IDC_CNAME, 0x403, 13, 0
+0xa2b7, 0xe7b5, 0xfabb, 0xdece, 0xa6b9, 0xf4b0, "\000" 
+    IDC_CNAME, 0x403, 13, 0
+0xe7b5, 0xddc8, 0xf7c6, 0xdece, 0xa6b9, 0xf4b0, "\000" 
+    IDC_CNAME, 0x403, 13, 0
+0xe7b5, 0xddc8, 0xf7c6, 0xddc8, 0xbfc1, 0xf4b0, "\000" 
+    IDC_CNAME, 0x403, 13, 0
+0xe4b1, 0xb9d1, 0xf7c6, 0xbab8, 0xd8d4, 0xf4b0, "\000" 
+    IDC_CNAME, 0x403, 13, 0
+0xe4b1, 0xb9d1, 0xf7c6, 0xddc8, 0xbfc1, 0xf4b0, "\000" 
+    IDC_CNAME, 0x403, 17, 0
+0xe4b1, 0xb9d1, 0xf7c6, 0x383e, 0x2530, 0xbdd4, 0xdecf, 0xf4b0, "\000" 
+    IDC_CNAME, 0x403, 11, 0
+0xe9c1, 0xf4c3, 0xc8b6, 0xf4b0, 0xbccd, "\000" 
+    IDC_CNAME, 0x403, 15, 0
+0xe4b1, 0xb9d1, 0xf7c6, 0xc2ce, 0xc8b6, 0xf4b0, 0xbccd, "\000" 
+    IDC_CNAME, 0x403, 19, 0
+0xe4b1, 0xb9d1, 0xf7c6, 0xabbc, 0xdecf, 0xc2ce, 0xc8b6, 0xf4b0, 0xbccd, 
+"\000" 
+    IDC_CNAME, 0x403, 19, 0
+0xe4b1, 0xb9d1, 0xf7c6, 0xc2ce, 0xc8b6, 0xbdd4, 0xdecf, 0xd5d1, 0xabc9, 
+"\000" 
+    IDC_CNAME, 0x403, 17, 0
+0xd0d3, 0xa6b9, 0xb1b3, 0xf7c1, 0xfdbc, 0xb7cd, 0xd5d1, 0xabc9, "\000" 
+    IDC_CNAME, 0x403, 17, 0
+0xdece, 0xa6b9, 0xb1b3, 0xf7c1, 0xfdbc, 0xb7cd, 0xd5d1, 0xabc9, "\000" 
+    IDC_CNAME, 0x403, 17, 0
+0xe7b5, 0xf7c1, 0xb1b3, 0xf7c1, 0xfdbc, 0xb7cd, 0xd5d1, 0xabc9, "\000" 
+    IDC_CNAME, 0x403, 16, 0
+0x2d6e, 0xb931, 0xd5ca, 0xd5cf, 0xd6fd, 0xd1b5, 0xc9d5, 0x00ab, 
+    IDC_CNAME, 0x403, 16, 0
+0x2d6e, 0xb931, 0xd5ca, 0xb8cf, 0xd6ba, 0xd1b5, 0xc9d5, 0x00ab, 
+    IDC_CNAME, 0x403, 15, 0
+0xaabf, 0xd8b9, 0xafb6, 0xf7d7, 0xaabf, 0xd5d1, 0xabc9, "\000" 
+    IDC_CNAME, 0x403, 15, 0
+0xaabf, 0xd8b9, 0xafb6, 0xf7d7, 0xcfba, 0xd5d1, 0xabc9, "\000" 
+    IDC_CNAME, 0x403, 15, 0
+0xccb6, 0xb7c2, 0xe7b5, 0xf7c1, 0xf9d6, 0xd5d1, 0xabc9, "\000" 
+    IDC_SENCTYPE, 0x403, 7, 0
+0xa2b7, 0xe7b5, 0xfabb, "\000" 
+    IDC_SENCTYPE, 0x403, 5, 0
+0xbab8, 0xc9ba, "\000" 
+    IDC_SENCTYPE, 0x403, 5, 0
+0xe7b5, 0xddc8, "\000" 
+    IDC_SENCTYPE, 0x403, 13, 0
+0xbdc1, 0xc6c8, 0xe9d7, 0xe4b1, 0xb9d1, 0xf7c6, "\000" 
+    IDC_SENCTYPE, 0x403, 13, 0
+0xfdc8, 0xc6c8, 0xe9d7, 0xe4b1, 0xb9d1, 0xf7c6, "\000" 
+    0
+END
+
+IDD_PRTDLG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 9, 0
+0xbfb4, 0xdaba, 0xf2b4, 0xa1d3, "\000" 
+    IDC_COMBO1, 0x403, 13, 0
+0xdaba, 0xd7b0, 0xd2bb, 0xc8b6, 0xf2b4, 0xa1d3, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0xcab2, 0xabc9, 0xf2b4, 0xa1d3, "\000" 
+    IDC_COMBO2, 0x403, 17, 0
+0xa5b5, 0xc5d5, 0xbdd6, 0xd4d7, 0xcaca, 0xa6d3, 0xf2b4, 0xa1d3, "\000" 
+    IDC_COMBO2, 0x403, 14, 0
+0xd532, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd533, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd534, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd535, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd536, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd537, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd538, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 1, 0
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "可视化仿真评估系统"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "可视化电力系统"
+    AFX_IDS_IDLEMESSAGE     "四川大学电气信息学院(2004-2008) "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_OPEN            "打开一个新的pw0界面文件\n打开pw0文件"
+    ID_FILE_PRINT           "打印当前显示页面(彩色或黑白)\n打印当前界面"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SAVETOBMP           "将当前显示的界面转换为 BMP位图保存"
+    IDC_BASFLOW             "返回到正常监视界面模式"
+    IDC_DMFLOW              "通过鼠标截取一个输电线断面，统计潮流及最大传输容量"
+    IDC_SENOPR              "通过输电线或母线计算灵敏度"
+    IDC_GENREV              "通过俯视图及发电机三维棒图监视发电机出力及备用"
+    IDC_GENREVQ             "通过俯视图监视发电机及电容器的无功出力及备用"
+    IDC_SHOWDGX             "显示或取消等高线显示\n等高线显示或取消"
+    IDC_CFGATTR             "显示属性配置\n显示属性配置"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_ENDHIS              "关闭已打开的历史数据播放器，并恢复系统状态。"
+    IDC_MAINPAGE            "显示系统配置的主页"
+    IDC_NAVIGATION          "显示系统导航器"
+    IDC_SHOWCRMAP           "显示或取消等高线色谱窗口"
+    IDC_SHOWSYS             "显示或隐藏界面低端的系统统计条"
+    IDC_OPENHIS             "打开日历史文件\n打开日历史文件"
+    ID_GOTOTOP              "回到文件起始位置\n回到起始位置"
+    ID_FASTREV              "快速回倒\n快倒"
+    ID_PLAY                 "从选定的时段自动播放历史\n自动播放"
+    ID_FASTFW               "快速前进\n快进"
+    ID_PAUSE                "暂停播放\n暂停播放"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NORMAL               "恢复为正常光标\n正常光标"
+    ID_MOVEPIC              "上、下、左、右移动画面\n移动接线图"
+    ID_PARTZOOM             "对接线图区域放大\n区域放大"
+    ID_ZOOMIO               "无级放缩\n无级放缩"
+    ID_ZOOMNML              "1:1等比显示\n1:1显示"
+    ID_ZOOMALL              "自动适配屏幕大小\n自动适配屏幕"
+    ID_LASTHMI              "返回到上一页面\n返回上页"
+    IDC_SECTFLW             "可以通过画线统计断面潮流\n截取断面潮流"
+    IDC_LINESEN             "发电机、负荷对线路的灵敏度\n线路灵敏度"
+    IDC_BUSSEN              "发电机、电容器和变压器分接头对节点电压的灵敏度\n节点电压灵敏度"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SECTDF              "自定义断面潮流\n自定义断面"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SHOWSTF             "显示预先自定义的断面\n显示自定义断面"
+    ID_OPENHISHMI           "打开历史界面文件\n历史界面"
+    IDC_SPUP                "播放速度升\n播放速度升"
+    ID_ROTATE               "旋转画面，可以从多个角度观察画面\n旋转画面"
+    ID_NORMALNS             "恢复南北正常朝向，旋转角度为0\n恢复朝向"
+    ID_VIEWPT               "调整视点\n调整视点"
+    IDC_SHOWLOWF            "监视线路的低频震荡\n低频震荡"
+    IDC_LOFWIN              "低频震荡放大监视\n低频震荡放大监视"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_FLOW                "潮流箭头控制\n潮流箭头"
+    IDC_NEXTHMI             "到下一页面\n到下一页面"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SETHISDATE          "设置历史时间\n设置历史时间"
+    IDC_SPDOWN              "播放速度降\n播放速度降"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_OPENMENUWIN         "打开/关闭功能切换控制\n打开/关闭功能切换控制"
+    ID_PAGEUP               "界面向前10个\n向前翻页"
+    ID_LEFT                 "界面向前\n向前"
+    ID_RIGHT                "界面相后\n向后"
+    ID_PAGEDOWN             "界面向后10个\n向后翻页"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_DELCHILD            "关闭当前窗口\n关闭当前窗口"
+    IDC_OPENSOE             "打开SOE反演工具\n打开SOE反演"
+    IDC_GETNEWSOE           "选择SOE时间段，返回SOE事件\n选择SOE时间d段"
+    IDC_PLAYSOE             "播放SOE事件\n播放SOE事件"
+    IDC_PAUSOESOE           "暂停SOE事件播放\n暂停"
+    IDC_SETDL               "指定短路电流计算\n短路电流计算"
+    IDC_JSDL                "监视全网短路电流计算结果\n监视短路电流"
+    ID_SOEGOTOTOP           "SOE回放回到前面"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SHOWFQ              "显示或关闭分区指标\n分区指标"
+    IDC_MSELLINE            "手动选择线路计算短路电流\n手动短路电流计算"
+    IDC_DLWF                "维护短路电流计算相关参数\n维护短路电流参数"
+    ID_BTNRETURN            "返回上一展示状态\n返回上一展示状态"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SVWIN               "打开或关闭变压器过载监视窗口"
+    IDC_SV_AUTO             "变压器重载时自动弹出监视窗口"
+    ID_TOOL_PAINT           "打开可视化绘图程序\n打开可视化绘图程序"
+    ID_TOOL_DBM             "内存库管理程序\n内存库管理程序"
+    ID_MENUITEM32950        "生成历史负荷文件\n生成历史负荷文件"
+    ID_TOOL_SECT            "查看初始断面数据\n查看初始断面数据"
+    ID_TOOL_SE              "查看估计断面\n查看估计断面"
+    ID_TOOL_EM              "查看仿真断面\n查看仿真断面"
+    ID_TOOL_CASEMG          "案例管理\n案例管理"
+    ID_TOOL_EST             "评估管理\n评估管理"
+    ID_TOOL_HISTORY         "评估历史回放\n评估历史回放"
+    ID_CHANGE               "切换数据源\n切换数据源"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SHOWPLATE           "挂牌显示控制\n挂牌显示控制"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\VisualPower.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

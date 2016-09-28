@@ -1,0 +1,10 @@
+; FindIDTODevInfo.def : Declares the module parameters for the DLL.
+
+LIBRARY      "FindIDTODevInfo"
+DESCRIPTION  'FindIDTODevInfo Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	IDtoNuName   @1
+	ExchangeIDName  @2
+	NUtoName		@3

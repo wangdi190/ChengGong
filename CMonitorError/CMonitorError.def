@@ -1,0 +1,13 @@
+; CMonitorError.def : Declares the module parameters for the DLL.
+
+LIBRARY      "CMonitorError"
+DESCRIPTION  'CMonitorError Windows Dynamic Link Library'
+
+EXPORTS
+    DfGetVer		@1
+	DfDrawDemo		@2
+	DfInit			@3
+	DfClose			@4
+	DfAbout			@5
+	DfSetParam      @6
+	DfLoadMenu		@7

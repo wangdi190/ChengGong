@@ -1,0 +1,18 @@
+; seldev.def : Declares the module parameters for the DLL.
+
+LIBRARY      "seldev"
+DESCRIPTION  'seldev Windows Dynamic Link Library'
+
+EXPORTS
+    SelAnlSHow		@1
+	SelSingleAnl	@2
+	SelDevSta		@3
+	SelZone			@4
+	Select_device	@5
+	SelPie			@6
+	GetNameByID     @7
+	SelReservoir    @8
+	CfgSect			@9
+	ShowAlarm		@10
+	SelYbDbs        @11
+	GetIDByName		@12

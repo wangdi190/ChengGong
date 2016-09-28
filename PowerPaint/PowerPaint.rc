@@ -1,0 +1,1233 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PowerPaint.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\PowerPaint.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\ARW07LT.ICO"
+IDI_ICON2               ICON    DISCARDABLE     "res\\ARW07RT.ICO"
+IDI_ICON3               ICON    DISCARDABLE     "res\\gs.ICO"
+IDI_ICON4               ICON    DISCARDABLE     "res\\ICLBuild.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_BASGRP              BITMAP  DISCARDABLE     "res\\basetl.bmp"
+IDR_ACTGRP              BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_CTLBAR              BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\TBITMAP.BMP"
+IDR_TLIMG               BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\OTHBMP.BMP"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\cd.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  20, 20
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_GOTOTOP
+    BUTTON      ID_GOTOBUTTOM
+    BUTTON      ID_EDIT_UNDO
+    SEPARATOR
+    BUTTON      ID_NORMAL
+    BUTTON      ID_MOVEPIC
+    BUTTON      ID_PARTZOOM
+    BUTTON      ID_ZOOMIO
+    BUTTON      ID_ZOOMNML
+    BUTTON      ID_LINE_ADDDOT
+    BUTTON      ID_LINE_SUBDOT
+    BUTTON      ID_CUTLINE
+    BUTTON      ID_BINDLINE
+    SEPARATOR
+    BUTTON      ID_CLEARIMG
+    BUTTON      ID_CUTIMG
+    BUTTON      ID_TRANIMG
+    BUTTON      ID_PAINTIMG
+    BUTTON      ID_BRIGHTIMG
+    BUTTON      ID_SETREGON
+    BUTTON      ID_CUTREGON
+    SEPARATOR
+    BUTTON      IDC_STRAIGHT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_BASGRP TOOLBAR DISCARDABLE  20, 20
+BEGIN
+    BUTTON      ID_COORD
+    BUTTON      ID_TABLE
+    BUTTON      ID_TEXT
+    BUTTON      ID_IMAGE
+    BUTTON      ID_ESITE
+    BUTTON      ID_EGPMB
+    BUTTON      ID_LINE
+    BUTTON      ID_ARROW
+    BUTTON      ID_RECT
+    BUTTON      ID_CIRCLE
+    BUTTON      ID_ARC
+    BUTTON      ID_HSIN
+    BUTTON      ID_SIN
+    BUTTON      ID_GLASS
+    BUTTON      ID_PATH
+END
+
+IDR_ACTGRP TOOLBAR DISCARDABLE  20, 20
+BEGIN
+    BUTTON      ID_METER1
+    BUTTON      ID_METER2
+    BUTTON      ID_METER3
+    BUTTON      ID_METER4
+    SEPARATOR
+    BUTTON      ID_ANALOG
+    BUTTON      ID_ACTOBJ
+    BUTTON      ID_BAR
+    BUTTON      ID_CONLINE
+    BUTTON      ID_FLOW
+    BUTTON      ID_BUS
+    SEPARATOR
+    BUTTON      ID_POLYZONE
+    BUTTON      ID_PIE
+    BUTTON      ID_SYSPIE
+    SEPARATOR
+    BUTTON      ID_DATE
+    BUTTON      ID_TIME
+    BUTTON      ID_GIFANL
+    BUTTON      ID_PUSH
+    BUTTON      ID_SELFCTL
+    BUTTON      ID_FLASH
+END
+
+IDR_CTLBAR TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_PAGEUP
+    BUTTON      ID_LEFT
+    BUTTON      ID_RIGHT
+    BUTTON      ID_PAGEDOWN
+END
+
+IDR_TLIMG TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_BUTTON32857
+    BUTTON      ID_BUTTON32858
+    BUTTON      ID_BUTTON32859
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新文件(&N)",                  ID_FILE_NEW
+        MENUITEM "打开文件(&O)",                ID_FILE_OPEN
+        MENUITEM "保存文件(&S)",                ID_FILE_SAVE
+        MENUITEM "另存为...(&A)",               ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "导入SVG格式文件",             IDC_INSVG
+        MENUITEM "批量导入SVG文件",             IDC_INSVG_BAT
+        MENUITEM "导出SVG格式文件",             IDC_OUTSVG
+        MENUITEM SEPARATOR
+        MENUITEM "打印输出(&P)",                IDC_PRINT
+        MENUITEM "发布本界面(&O)",              IDC_PUTOUT
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "退回上一步(&U)\tCtrl+Z",      ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "删除(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",            ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "线条完全对直(&S)\tShift+W",   IDC_STRAIGHT
+        MENUITEM "转为正园-宽高相等(&S)",       IDC_TOSQRT
+        MENUITEM "位图压缩(&B)",                ID_IMGSTRATCH
+        POPUP "图形处理"
+        BEGIN
+            MENUITEM "平滑处理",                    ID_FILTER_SMOTH
+            MENUITEM "灰度处理",                    ID_FILTER_GRAY
+            MENUITEM "减色处理",                    ID_FILTER_REDUCE
+            MENUITEM "反转底片",                    ID_FILTER_REV
+            MENUITEM "添加水线",                    ID_FILTER_WL
+            MENUITEM "镜像处理",                    ID_TRAN_MIR
+            MENUITEM "倒置处理",                    ID_TRAN_UD
+            MENUITEM "边框加亮",                    ID_BD_BRIGHT
+            MENUITEM "边框加黑",                    ID_BD_BLACK
+            MENUITEM "黑色边框",                    ID_BD_BLK
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "转换为位图并拷贝到剪贴板(&I)", IDC_COPYTOCLIB
+        MENUITEM "从剪贴板粘贴图形(&A)",        IDC_PASTECLIB
+        MENUITEM "去除位图无用部分(&N)",        IDC_CUTNOUSE
+        MENUITEM SEPARATOR
+        MENUITEM "批量修改字体(&F)",            IDC_MODIFONT
+    END
+    POPUP "界面操作(&I)"
+    BEGIN
+        MENUITEM "页面参数(&p)",                IDC_SETPAGE
+        MENUITEM "绘图属性(&T)",                IDC_DRAWATTR
+        MENUITEM SEPARATOR
+        MENUITEM "电压等级配色(&V)",            ID_VLCOLOR
+        POPUP "背景填充(&B)"
+        BEGIN
+            MENUITEM "用图样填充(&P)",              IDC_FILLPTN
+            MENUITEM "用单色填充(&C)",              IDC_FILLCOLOR
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "网格(&S)",                    IDC_SHOWGUIDE
+        MENUITEM "网格参数(&G)",                IDC_GUIDE
+        MENUITEM SEPARATOR
+        MENUITEM "添加页面(&A)",                IDC_ADDPAGE
+        MENUITEM "添加图层(&L)",                IDC_ADDLAYER
+        MENUITEM "删除页面(&C)",                IDC_DELCURPAGE
+        MENUITEM "删除图层(&D)",                IDC_DELCURLAYER
+        MENUITEM SEPARATOR
+        MENUITEM "指定推画面矩形(&R)",          IDC_DRAWRT
+        MENUITEM "多界面互控配置(&Z)",          IDC_ZMCTL
+    END
+    POPUP "对象管理(&O)"
+    BEGIN
+        MENUITEM "拆分图元(&E)",                IDC_EGPTOSGL
+        MENUITEM SEPARATOR
+        MENUITEM "计算端子(&R)",                IDC_RESETSITE
+        MENUITEM "显示端子(&S)",                IDC_SHOWSITE
+        MENUITEM SEPARATOR
+        MENUITEM "标注端子悬空设备(&F)",        IDC_NOCONDEV
+        MENUITEM "标注无库设备(&N)",            IDC_NOCDEV
+        MENUITEM SEPARATOR
+        MENUITEM "收集关联文件到界面目录(&C)",  IDC_TOHMIDIR
+        MENUITEM SEPARATOR
+        MENUITEM "母线互动关联配置(&R)",        IDC_BUSRALATE
+        MENUITEM SEPARATOR
+        MENUITEM "自动由ID升级设备名字(&A)",    IDC_GETNM
+        MENUITEM "自动由设备名升级ID(&D)",      IDC_GETID
+        MENUITEM "SVG图形CIM名字替换",          IDC_SVGNAME
+        MENUITEM SEPARATOR
+        MENUITEM "从多边形生成区域(&D)",        IDC_DBXTOZONE
+    END
+    POPUP "测试(&T)"
+    BEGIN
+        MENUITEM "开始测试(&S)",                IDC_TEST
+    END
+    POPUP "窗口(&W)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM "基本图形栏(&B)",              IDC_BASTL
+        MENUITEM "活动图形栏(&A)",              IDC_ACTTL
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 PowerPaint(&A)...",      ID_APP_ABOUT
+    END
+END
+
+IDR_ELEMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "eleme"
+    BEGIN
+        MENUITEM "打开(&O)",                    IDC_OPENEGRP
+        MENUITEM "保存(&S)",                    IDC_SAVEEGRP
+        MENUITEM "另存为...(&A)",               ID_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "添加一个空图元(&A)",          IDC_ADDEMPTY
+        MENUITEM "粘贴开图元(&E)",              IDC_PASTENORMAL
+        MENUITEM "粘贴合图元(&A)",              IDC_PASTEALARM
+        MENUITEM "删除图元(&D)",                IDC_DELAEGRP
+        MENUITEM "配置属性(&S)",                IDC_SETUP
+        MENUITEM "拷贝图元到桌面(&C)",          IDC_COPYTODESK
+    END
+END
+
+IDR_RMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "RMENU"
+    BEGIN
+        MENUITEM "正常光标",                    ID_CURNML
+        MENUITEM "拷贝...",                     ID_EDIT_COPY
+        MENUITEM "粘贴...",                     ID_EDIT_PASTE
+        MENUITEM "置前",                        ID_GOTOTOP
+        MENUITEM "置后",                        ID_GOTOBUTTOM
+        MENUITEM "拉直线条",                    IDC_STRAIGHT
+        MENUITEM SEPARATOR
+        POPUP "对齐操作"
+        BEGIN
+            MENUITEM "左对齐",                      ID_ALIGN_LEFT
+            MENUITEM "右对齐",                      ID_ALIGN_RIGHT
+            MENUITEM "上对齐",                      ID_ALIGN_UP
+            MENUITEM "下对齐",                      ID_ALIGN_DOWN
+            MENUITEM SEPARATOR
+            MENUITEM "等高",                        ID_ALIGN_HG
+            MENUITEM "等宽",                        ID_ALIGN_WD
+            MENUITEM "X等距",                       ID_ALIGN_DSTX
+            MENUITEM "Y等距",                       ID_ALIGN_DSTY
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "基本属性",                    ID_EDIT_ATTR
+        MENUITEM "关联设备",                    ID_CONNECT_DEV
+        MENUITEM "编辑设备",                    ID_EDIT_DEV
+        MENUITEM "电压无功参数设置",            IDC_AVCCFG
+    END
+END
+
+IDR_RMENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "RMENU1"
+    BEGIN
+        MENUITEM "正常光标",                    ID_CURNML
+        MENUITEM "拷贝...",                     ID_EDIT_COPY
+        MENUITEM "粘贴...",                     ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "基本属性",                    ID_EDIT_ATTR
+        MENUITEM "转化为线路",                  IDC_DBXTOLINE
+        MENUITEM "转化为连接线",                IDC_DBXTOCL
+    END
+END
+
+IDR_RMENU2 MENU DISCARDABLE 
+BEGIN
+    POPUP "RMENU2"
+    BEGIN
+        MENUITEM "正常光标",                    ID_CURNML
+        MENUITEM "拷贝...",                     ID_EDIT_COPY
+        MENUITEM "粘贴...",                     ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "基本属性",                    ID_EDIT_ATTR
+        MENUITEM "控件属性",                    ID_EDIT_SFT
+        MENUITEM "关于控件",                    ID_ABOUT_SFT
+    END
+END
+
+IDR_RMENU3 MENU DISCARDABLE 
+BEGIN
+    POPUP "RMENU3"
+    BEGIN
+        MENUITEM "正常光标",                    ID_CURNML
+        MENUITEM "拷贝...",                     ID_EDIT_COPY
+        MENUITEM "粘贴...",                     ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "基本属性",                    ID_EDIT_ATTR
+        MENUITEM "选择数据源",                  ID_DBSOURCE
+    END
+END
+
+IDR_RMENU4 MENU DISCARDABLE 
+BEGIN
+    POPUP "RMENU4"
+    BEGIN
+        MENUITEM "正常光标",                    ID_CURNML
+        MENUITEM "拷贝...",                     ID_EDIT_COPY
+        MENUITEM "粘贴...",                     ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "上对齐",                      ID_ALIGN_UP
+        MENUITEM "下对齐",                      ID_ALIGN_DOWN
+        MENUITEM "左对齐",                      ID_ALIGN_LEFT
+        MENUITEM "右对齐",                      ID_ALIGN_RIGHT
+        MENUITEM SEPARATOR
+        MENUITEM "等高",                        ID_ALIGN_HG
+        MENUITEM "等宽",                        ID_ALIGN_WD
+        MENUITEM "X等距",                       ID_ALIGN_DSTX
+        MENUITEM "Y等距",                       ID_ALIGN_DSTY
+        MENUITEM SEPARATOR
+        MENUITEM "设置电压",                    ID_SETVLEV
+        MENUITEM "设置字体",                    ID_SETFONT
+        MENUITEM "设置颜色",                    ID_SETCOLOR
+    END
+END
+
+IDR_RMENU5 MENU DISCARDABLE 
+BEGIN
+    POPUP "RMENU5"
+    BEGIN
+        MENUITEM "正常光标",                    ID_CURNML
+        MENUITEM "粘贴...",                     ID_EDIT_PASTE
+    END
+END
+
+IDR_SPICMG MENU DISCARDABLE 
+BEGIN
+    POPUP "spim"
+    BEGIN
+        MENUITEM "添加位图",                    IDC_ADDSPIC
+        MENUITEM "打开一个位图组",              IDC_OPENSPIC
+        MENUITEM "保存一个位图组",              IDC_SAVESPIC
+        MENUITEM SEPARATOR
+        MENUITEM "删除选择位图",                IDC_DELSPIC
+        MENUITEM "删除未用位图",                IDC_DELNOUSE
+        MENUITEM SEPARATOR
+        MENUITEM "拷贝位图到桌面",              IDC_COPYTODESK
+        MENUITEM "定义为背景样板",              IDC_DEFPTN
+        MENUITEM "指定为活动对象",              IDC_DEFACT
+    END
+END
+
+IDR_LMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Lmenu"
+    BEGIN
+        MENUITEM "添加图层",                    IDC_ADDLAYER
+        MENUITEM "删除图层",                    IDC_DELCURLAYER
+        MENUITEM "当前图层置顶",                IDC_GOTOP
+        MENUITEM "当前图层置底",                IDC_GOBOTTOM
+    END
+END
+
+IDR_RMENU6 MENU DISCARDABLE 
+BEGIN
+    POPUP "rmenu"
+    BEGIN
+        MENUITEM "正常光标",                    ID_MENUITEM32920
+        MENUITEM "拷贝...",                     ID_EDIT_COPY
+        MENUITEM "粘贴...",                     ID_EDIT_PASTE
+        MENUITEM "置前",                        ID_GOTOTOP
+        MENUITEM "置后",                        ID_GOTOBUTTOM
+        MENUITEM SEPARATOR
+        MENUITEM "基本属性",                    ID_EDIT_ATTR
+        MENUITEM "关联设备",                    ID_CONNECT_DEV
+        MENUITEM "外观用组合图元",              IDC_SELELEBUS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "A",            IDC_ADDLINEDOT,         VIRTKEY, SHIFT, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            IDC_SUBLINEDOT,         VIRTKEY, SHIFT, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    "W",            IDC_STRAIGHT,           VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "X",            IDC_ZMIN,               VIRTKEY, SHIFT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            IDC_ZMOUT,              VIRTKEY, SHIFT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 260, 129
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 VisualPaint"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,195,15,20,20
+    LTEXT           "VisualPaint 5.0 版",IDC_STATIC,77,6,93,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2005-2009",IDC_STATIC,77,19,107,8
+    DEFPUSHBUTTON   "确定",IDOK,88,101,50,14,WS_GROUP
+    LTEXT           "四川大学电气信息学院",IDC_STATIC,77,39,98,10
+    LTEXT           "警告：本软件受软件法保护，未经授权的用户不得发布、使用.",
+                    IDC_STATIC,77,55,138,22
+    LTEXT           "技术支持：028-85463956",IDC_STATIC,77,78,95,11
+    CONTROL         167,IDC_STATIC,"Static",SS_BITMAP,4,9,53,69
+END
+
+IDD_CFGCOLOR DIALOG DISCARDABLE  0, 0, 236, 213
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "电压颜色配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "保存",IDOK,134,138,79,14
+    PUSHBUTTON      "退出",IDCANCEL,90,185,50,14
+    LTEXT           "选择一个编辑的电压：",IDC_STATIC,8,9,78,10
+    LISTBOX         IDC_VLNAME,9,27,60,144,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "红色分量(&R):",IDC_STATIC,82,34,53,11
+    LTEXT           "绿色分量(&G):",IDC_STATIC,82,51,53,11
+    LTEXT           "蓝色分量(&B):",IDC_STATIC,82,68,53,11
+    LTEXT           "按""保存""才能真正保存",IDC_STATIC,81,138,50,18
+    EDITTEXT        IDC_COLORR,135,34,36,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COLORG,135,51,36,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COLORB,135,67,36,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "调色版",IDC_PALLT,133,97,78,15
+    CONTROL         "",IDC_SCOLOR,"Static",SS_BITMAP,179,35,17,13
+    ICON            IDR_MAINFRAME,IDC_STATIC,193,5,20,20
+    GROUPBOX        "",IDC_STATIC,72,23,152,149
+END
+
+IDD_EGPATTR DIALOG DISCARDABLE  0, 0, 188, 215
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "配置图元属性"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,23,190,50,14
+    PUSHBUTTON      "取消",IDCANCEL,101,188,50,14
+    LTEXT           "图元名称:",IDC_STATIC,7,11,39,9
+    LTEXT           "主类型:",IDC_STATIC,14,27,30,10
+    LTEXT           "设备类型:",IDC_STATIC,6,49,39,12
+    LTEXT           "端子数:",IDC_STATIC,10,67,28,11
+    LTEXT           "注意：端子和着色园位置必须相切",IDC_STATIC,11,86,151,11
+    EDITTEXT        IDC_NAME,46,9,70,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_TYPE,46,26,70,80,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SUBTYPE,46,43,70,81,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SITESUM,46,61,70,77,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         IDC_MSG,6,129,176,52,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    ICON            IDR_MAINFRAME,IDC_STATIC,155,10,20,20
+    PUSHBUTTON      "分析并自动配置端子",IDC_ANALYSE,10,103,75,17
+END
+
+IDD_GUIDEDLG DIALOG DISCARDABLE  0, 0, 170, 101
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "背景网线配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "认可",IDOK,19,77,50,14
+    PUSHBUTTON      "取消",IDCANCEL,87,76,50,14
+    LTEXT           "网格尺寸:",IDC_STATIC,12,10,38,10
+    LTEXT           "网格风格:",IDC_STATIC,12,28,41,9
+    LTEXT           "网格颜色:",IDC_STATIC,12,47,39,11
+    EDITTEXT        IDC_GSIZE,53,9,35,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_STYPE,53,26,62,37,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "",IDC_COLOR,"Static",SS_BLACKFRAME,53,47,11,9
+    PUSHBUTTON      "修改",IDC_MODIC,79,46,24,11
+    ICON            IDR_MAINFRAME,IDC_STATIC,140,9,20,20
+END
+
+IDD_PAGEATTR DIALOG DISCARDABLE  0, 0, 194, 221
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "页面属性"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "认可",IDOK,38,197,50,14
+    PUSHBUTTON      "取消",IDCANCEL,116,197,50,14
+    LTEXT           "页面名称:",IDC_STATIC,7,6,42,9
+    LTEXT           "类型:",IDC_STATIC,21,21,28,10
+    LTEXT           "宽度:",IDC_STATIC,21,39,28,11
+    LTEXT           "高度:",IDC_STATIC,21,57,29,9
+    EDITTEXT        IDC_NAME,57,5,101,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_TYPE,57,21,101,56,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_WIDTH,57,38,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HEIGHT,57,55,43,12,ES_AUTOHSCROLL
+    LTEXT           "像素",IDC_STATIC,107,42,20,8
+    LTEXT           "像素",IDC_STATIC,107,56,20,8
+    CONTROL         "是否按指定矩形推出画面",IDC_SHOWBYRT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,74,118,11
+    GROUPBOX        "矩形参数",IDC_STATIC,7,94,177,50
+    LTEXT           "左上角坐标:",IDC_STATIC,15,109,48,12
+    LTEXT           "右下角坐标:",IDC_STATIC,15,127,49,11
+    EDITTEXT        IDC_X1,65,107,47,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_X2,65,126,47,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y1,128,107,47,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y2,127,126,47,12,ES_AUTOHSCROLL
+    CONTROL         "画面支持灵敏度计算和显示",IDC_ENABLESEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,151,124,9
+    CONTROL         "不允许3维模式(主界面和自助控件界面必设)",IDC_NO3D,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,165,178,11
+END
+
+IDD_PRTDLG DIALOG DISCARDABLE  0, 0, 175, 117
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "矢量打印选项"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "认可",IDOK,27,91,50,14
+    PUSHBUTTON      "取消",IDCANCEL,97,90,50,14
+    LTEXT           "打印模式:",IDC_STATIC,13,36,37,10
+    LTEXT           "打印倍率:",IDC_STATIC,13,55,40,11
+    COMBOBOX        IDC_COMBO1,53,35,81,56,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,53,53,81,49,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,0,169,79
+    ICON            IDI_ICON3,IDC_STATIC,12,13,20,20
+END
+
+IDD_VLEVDLG DIALOG DISCARDABLE  0, 0, 180, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "批量修改电压等级"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "修改",IDOK,97,94,50,14
+    PUSHBUTTON      "取消",IDCANCEL,97,128,50,14
+    LTEXT           "选择电压等级:",IDC_STATIC,7,5,58,11
+    LISTBOX         IDC_LIST1,6,20,65,136,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    ICON            IDR_MAINFRAME,IDC_STATIC,115,32,21,21
+END
+
+IDD_IMGDLG DIALOGEX 0, 0, 291, 156
+STYLE DS_3DLOOK | DS_NOFAILCREATE | DS_CONTROL | WS_CHILD | WS_VISIBLE | 
+    WS_CLIPSIBLINGS
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "预览",IDC_SHOWPREVIEW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,4,5,29,10
+    CONTROL         "不伸缩",IDC_DEPTH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    40,5,34,10
+    LTEXT           "宽度:",IDC_WIDTH,81,5,68,10
+    LTEXT           "高度:",IDC_HEIGHT,150,5,61,10
+    LTEXT           "文件:",IDC_FSIZE,211,5,58,10
+    CONTROL         "",IDC_PREVIEWBTN,"Button",BS_OWNERDRAW | BS_NOTIFY | 
+                    WS_TABSTOP,3,21,277,131,WS_EX_CLIENTEDGE
+END
+
+IDD_RALATEDLG DIALOG DISCARDABLE  0, 0, 346, 211
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "母线互动文件关联设置"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "来自文件...",IDC_OPENPWF,280,15,55,12
+    LISTBOX         IDC_BUS,5,23,92,182,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "添加",IDC_ADD,105,77,23,15
+    PUSHBUTTON      "删除",IDC_DELETE,107,115,23,15
+    DEFPUSHBUTTON   "保存退出",IDOK,107,150,39,14
+    PUSHBUTTON      "取消退出",IDCANCEL,107,170,39,14
+    CONTROL         "List2",IDC_RALATED,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,150,63,191,142
+    EDITTEXT        IDC_FILENAME,183,15,93,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_PAGENO,183,31,93,119,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_INDEX,308,31,28,12,ES_AUTOHSCROLL
+    LTEXT           "母线:",IDC_STATIC,5,6,23,9
+    LTEXT           "已关联图形的母线列表:",IDC_STATIC,150,53,84,9
+    LTEXT           "关联的图形文件:",IDC_STATIC,112,18,63,10
+    LTEXT           "关联的页面名称:",IDC_STATIC,113,34,61,9
+    LTEXT           "序号:",IDC_STATIC,282,34,23,10
+    GROUPBOX        "关联文件",IDC_STATIC,106,7,237,43
+    ICON            IDI_ICON2,IDC_STATIC,130,76,20,20
+    ICON            IDI_ICON1,IDC_STATIC,131,114,20,20
+    PUSHBUTTON      "清除已关联母线",IDC_CLEARRA,31,5,66,12
+END
+
+IDD_ZOOMDLG DIALOG DISCARDABLE  0, 0, 295, 190
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "放缩控制设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "保存退出",IDOK,52,166,50,14
+    PUSHBUTTON      "取消退出",IDCANCEL,195,163,50,14
+    CONTROL         "放大推画面",IDC_ZOOMOUT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,11,66,10
+    CONTROL         "缩小推画面",IDC_ZOOMIN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,153,11,56,11
+    GROUPBOX        "放大推画面设置",IDC_STATIC,5,26,139,128
+    GROUPBOX        "缩小推画面设置",IDC_STATIC,149,26,136,128
+    LTEXT           "放大倍数:",IDC_STATIC,12,42,37,9
+    EDITTEXT        IDC_FDBS1,53,41,35,12,ES_AUTOHSCROLL
+    LTEXT           "推出画面:",IDC_STATIC,12,58,37,10
+    EDITTEXT        IDC_FNM1,53,57,88,12,ES_AUTOHSCROLL
+    LTEXT           "画面序号:",IDC_STATIC,12,75,39,10
+    EDITTEXT        IDC_HM1,53,74,32,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "来自文件...",IDC_FROMFM1,53,92,66,14
+    LTEXT           "放大倍数:",IDC_STATIC,155,41,37,9
+    LTEXT           "推出画面:",IDC_STATIC,155,57,37,10
+    LTEXT           "画面序号:",IDC_STATIC,155,74,39,10
+    EDITTEXT        IDC_FDBS2,194,39,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FNM2,194,55,88,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HM2,194,71,32,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "来自文件...",IDC_FROMFM2,195,89,66,14
+    CONTROL         "按指定放大倍数推出画面",IDC_DEFZM1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,116,122,11
+    CONTROL         "按指定放大倍数推出画面",IDC_DEFZM2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,156,117,122,11
+    LTEXT           "指定的放大倍数:",IDC_STATIC,14,135,59,9
+    LTEXT           "指定的放大倍数:",IDC_STATIC,157,134,59,9
+    EDITTEXT        IDC_ZM1,77,133,46,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ZM2,221,132,46,12,ES_AUTOHSCROLL
+END
+
+IDD_OPENPW0 DIALOG DISCARDABLE  0, 0, 316, 21
+STYLE DS_NOFAILCREATE | DS_CONTROL | WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "选择页面名称:",IDC_STATIC,6,5,52,10
+    COMBOBOX        IDC_PAGE,61,2,123,111,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "页面号:",IDC_STATIC,188,4,28,10
+    EDITTEXT        IDC_PNO,218,4,23,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER
+END
+
+IDD_SELELEGRP DIALOG DISCARDABLE  0, 0, 236, 112
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择一个组合图元作母线"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "选择",IDOK,45,83,50,14
+    PUSHBUTTON      "取消",IDCANCEL,146,84,50,14
+    CONTROL         "",IDC_TY,"Static",SS_BLACKFRAME,0,0,236,57
+    SCROLLBAR       IDC_SCROL,0,57,236,10
+END
+
+IDD_TEXTDLG DIALOG DISCARDABLE  0, 0, 231, 46
+STYLE DS_MODALFRAME | DS_CENTERMOUSE | WS_POPUP
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "认可",IDOK,28,25,50,14
+    PUSHBUTTON      "取消",IDCANCEL,125,25,50,14
+    EDITTEXT        IDC_TEXT,6,6,217,14,ES_AUTOHSCROLL
+END
+
+IDD_SCRTEXT DIALOG DISCARDABLE  0, 0, 210, 147
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "滚动文本编辑"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "认可",IDOK,33,124,50,14
+    PUSHBUTTON      "取消",IDCANCEL,142,124,50,14
+    EDITTEXT        IDC_TEXT,4,3,202,115,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL
+END
+
+IDD_GETNAME DIALOG DISCARDABLE  0, 0, 188, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "用设备ID号获取设备名"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "当前页面:",IDC_STATIC,8,7,37,10
+    LTEXT           "PNAME",IDC_PNAME,46,7,137,10
+    LTEXT           "当前层面:",IDC_STATIC,8,19,37,10
+    LTEXT           "IDC_LNAME",IDC_LNAME,46,19,140,10
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    10,33,172,11
+    LTEXT           "Name",IDC_DNAME,9,62,172,10
+    LTEXT           "Static",IDC_NUM,11,47,81,11
+END
+
+IDD_YBDBSRC DIALOG DISCARDABLE  0, 0, 449, 247
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "配置仪表数据源"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,144,223,50,14
+    PUSHBUTTON      "取消",IDCANCEL,290,222,50,14
+    LTEXT           "选择仪表部件:(双击项目可以直接关联数据源)",IDC_STATIC,7,
+                    9,182,10
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,6,20,432,84
+    PUSHBUTTON      "关联数据源",IDC_DBSRC,381,177,51,23
+    GROUPBOX        "",IDC_STATIC,3,0,441,212
+    CONTROL         "",IDC_MTSHW,"Static",SS_ETCHEDFRAME,7,119,110,86
+    GROUPBOX        "自定义仪表显示参数",IDC_STATIC,123,109,252,96
+    EDITTEXT        IDC_VMIN,189,124,53,12,ES_AUTOHSCROLL
+    LTEXT           "下限值:",IDC_STATIC,138,124,39,11
+    LTEXT           "上限值:",IDC_STATIC,138,141,36,10
+    EDITTEXT        IDC_VMAX,189,139,53,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "使用自定义",IDC_USERDEF,304,122,61,13
+    PUSHBUTTON      "使用读取库",IDC_DELUSER,304,139,61,13
+    LTEXT           "仪表样例：",IDC_STATIC,7,108,95,11
+    LTEXT           "第一段范围:",IDC_STATIC,139,173,45,11
+    LTEXT           "第二段范围:",IDC_STATIC,139,189,46,11
+    EDITTEXT        IDC_V1,189,171,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_V2,247,171,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_V3,189,187,43,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_V4,247,185,43,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR1,"Static",SS_BLACKFRAME,295,171,30,12
+    CONTROL         "",IDC_COLOR2,"Static",SS_BLACKFRAME,295,185,30,12
+    PUSHBUTTON      "修改",IDC_MODICOLOR1,333,169,32,13
+    PUSHBUTTON      "修改",IDC_MODICOLOR2,333,185,32,13
+    ICON            IDI_ICON4,IDC_STATIC,393,118,21,21
+    PUSHBUTTON      "修改参数",IDC_MODIPARAM,381,149,51,20
+    COMBOBOX        IDC_DS,189,155,43,52,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "告警段数:",IDC_STATIC,141,159,40,11
+END
+
+IDD_GETIDDLG DIALOG DISCARDABLE  0, 0, 236, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "由设备名称自动更新ID"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "当前页面:",IDC_STATIC,5,5,42,11
+    LTEXT           "当前层面:",IDC_STATIC,5,19,39,11
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    5,37,228,10
+    LTEXT           "Static",IDC_PNAME,50,6,181,10
+    LTEXT           "Static",IDC_LNAME,49,20,184,11
+    LTEXT           "Static",IDC_NUM,5,53,81,11
+    LTEXT           "Static",IDC_DNAME,5,67,225,10
+END
+
+IDD_IMPORT_SVG DIALOG DISCARDABLE  0, 0, 300, 331
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "批量SVG格式文件导入"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "导入",IDOK,138,310,50,14
+    PUSHBUTTON      "退出",IDCANCEL,243,310,50,14
+    EDITTEXT        IDC_SRCPATH,59,7,164,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "打开",IDC_BTNSCR,234,7,33,14
+    LTEXT           "SVG源路径",IDC_STATIC,8,11,38,8
+    LTEXT           "导入的SVG文件:",IDC_STATIC,7,41,57,8
+    EDITTEXT        IDC_DIRPATH,59,23,164,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "打开",IDC_BTNDIR,234,23,33,14
+    LTEXT           "保存路径",IDC_STATIC,7,26,34,8
+    CONTROL         "List1",IDC_LIST_SVG,"SysListView32",LVS_REPORT | 
+                    LVS_SORTASCENDING | LVS_ALIGNLEFT | LVS_NOCOLUMNHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,51,286,230
+    CONTROL         "全部导入",IDC_CHECK_ALL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,285,50,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 5,0,0,1
+ PRODUCTVERSION 5,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PowerPaint Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "5, 0, 0, 1\0"
+            VALUE "InternalName", "PowerPaint\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PowerPaint.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "PowerPaint 应用程序\0"
+            VALUE "ProductVersion", "5, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "res\\CURSOR1.CUR"
+IDC_CURSOR2             CURSOR  DISCARDABLE     "res\\CURSOR2.CUR"
+IDC_CURSOR3             CURSOR  DISCARDABLE     "res\\CURSOR3.CUR"
+IDC_CURSOR4             CURSOR  DISCARDABLE     "res\\CURSOR4.CUR"
+IDC_CURSOR5             CURSOR  DISCARDABLE     "res\\CURSOR5.CUR"
+IDC_CURSOR6             CURSOR  DISCARDABLE     "res\\CURSOR6.CUR"
+IDC_CURSOR7             CURSOR  DISCARDABLE     "res\\CURSOR7.CUR"
+IDC_CURSOR8             CURSOR  DISCARDABLE     "res\\CURSOR8.CUR"
+IDC_CURSOR9             CURSOR  DISCARDABLE     "res\\CURSOR9.CUR"
+IDC_CURSOR10            CURSOR  DISCARDABLE     "res\\CURSOR10.CUR"
+IDC_CURSOR11            CURSOR  DISCARDABLE     "res\\CURSOR11.CUR"
+IDC_CURSOR12            CURSOR  DISCARDABLE     "res\\CURSOR12.CUR"
+IDC_CURSOR13            CURSOR  DISCARDABLE     "res\\cursor13.CUR"
+IDC_CURSOR14            CURSOR  DISCARDABLE     "res\\CURSOR14.CUR"
+IDC_CURSOR15            CURSOR  DISCARDABLE     "res\\CURSOR15.cur"
+IDC_CURSOR16            CURSOR  DISCARDABLE     "res\\CURSOR16.cur"
+IDC_CURSOR17            CURSOR  DISCARDABLE     "res\\CURSOR17.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_GUIDEDLG DLGINIT
+BEGIN
+    IDC_STYPE, 0x403, 11, 0
+0xbbd2, 0xe3b0, 0xadbe, 0xb3ce, 0xdfcf, "\000" 
+    IDC_STYPE, 0x403, 9, 0
+0xa5b5, 0xe3b5, 0xedb1, 0xbeca, "\000" 
+    0
+END
+
+IDD_PAGEATTR DLGINIT
+BEGIN
+    IDC_TYPE, 0x403, 9, 0
+0xd5c6, 0xa8cd, 0xe7bd, 0xe6c3, "\000" 
+    IDC_TYPE, 0x403, 11, 0
+0xe7b5, 0xf8cd, 0xd3bd, 0xdfcf, 0xbccd, "\000" 
+    0
+END
+
+IDD_PRTDLG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 9, 0
+0xbfb4, 0xdaba, 0xf2b4, 0xa1d3, "\000" 
+    IDC_COMBO1, 0x403, 13, 0
+0xdaba, 0xd7b0, 0xd2bb, 0xc8b6, 0xf2b4, 0xa1d3, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0xcab2, 0xabc9, 0xf2b4, 0xa1d3, "\000" 
+    IDC_COMBO2, 0x403, 17, 0
+0xa5b5, 0xc5d5, 0xbdd6, 0xd4d7, 0xcaca, 0xa6d3, 0xf2b4, 0xa1d3, "\000" 
+    IDC_COMBO2, 0x403, 14, 0
+0xd532, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd533, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd534, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd535, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd536, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd537, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 14, 0
+0xd538, 0xd6c5, 0xbfbd, 0xb6ed, 0xb4c8, 0xd3f2, 0x00a1, 
+    IDC_COMBO2, 0x403, 1, 0
+"\000" 
+    0
+END
+
+IDD_YBDBSRC DLGINIT
+BEGIN
+    IDC_DS, 0x403, 3, 0
+0xdece, "\000" 
+    IDC_DS, 0x403, 4, 0
+0xb631, 0x00ce, 
+    IDC_DS, 0x403, 4, 0
+0xb632, 0x00ce, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_IMPORT_SVG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 324
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "电力可视化绘图包VisualPaint 5.0"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "电力可视化绘图包VisualPaint 50"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GOTOBUTTOM           "选中对象置后\n置后"
+    ID_COORD                "添加坐标部件\n坐标部件"
+    ID_TABLE                "添加表格部件\n表格部件"
+    ID_TEXT                 "添加文本串\n文本"
+    ID_IMAGE                "添加位图对象\n位图"
+    ID_ESITE                "电气端子\n端子"
+    ID_EGPMB                "组合图元母版\n母版"
+    ID_LINE                 "绘制线段\n画线"
+    ID_ARROW                "画方向箭头\n箭头"
+    ID_POLYGON              "绘制多边形\n多边形"
+    ID_FREELINE             "画自由线\n自由线"
+    ID_RECT                 "绘制矩形图案\n矩形"
+    ID_CIRCLE               "绘制圆形图案\n园形"
+    ID_PATH                 "添加一个路经\n路径"
+    ID_ARC                  "绘制园弧\n园弧"
+    ID_HSIN                 "画连续正弦半波线\n半波"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SIN                  "画正弦波\n正弦"
+    ID_CBAR                 "画园柱体 \n园柱体"
+    ID_GLASS                "画玻璃隔层\n玻璃层"
+    ID_ANALOG               "添加一个模拟量\n模拟量"
+    ID_ACTOBJ               "添加运动对象\n运动对象"
+    ID_CURE                 "画动态曲线\n曲线"
+    ID_CONLINE              "电力连接线(阻抗为0)\n连接线"
+    ID_FLOW                 "画流动线(潮流代表的设备为输电线)\n线路"
+    ID_BUS                  "添加电力母线\n母线"
+    ID_PIE                  "添加饼图\n饼图"
+    ID_DATE                 "添加一个日历\n日历"
+    ID_TIME                 "添加一个动态时间\n时间"
+    ID_GIFANL               "添加一个GIF动画\nGIF动画"
+    ID_SCRTEXT              "添加一个滚动文本\n滚动文本"
+    ID_PUSH                 "添加一个按钮\n按钮"
+    ID_SELFCTL              "添加自助式专业控件\n自助控件"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FLASH                "添加FLASH控件\nFlash控件"
+    ID_NORMAL               "正常光标\n正常光标"
+    ID_MOVEPIC              "图形移动\n图形移动"
+    ID_PARTZOOM             "局部放大功能\n局部放大"
+    ID_ZOOMNML              "原始大小\n原始大小"
+    ID_LINE_ADDDOT          "在线条上增加一点\n加一点"
+    ID_LINE_SUBDOT          "在线条上减一点\n减点"
+    ID_CUTLINE              "对线条分二段剪断\n剪断"
+    ID_BINDLINE             "合并两条线\n线合并"
+    ID_CLEARIMG             "擦图操作\n擦图"
+    ID_CUTIMG               "将鼠标指向的某一颜色剪去\n剪去"
+    ID_TRANIMG              "用某种颜色去透明\n透明"
+    ID_PAINTIMG             "对背景或选中的图形进行喷绘\n喷绘"
+    ID_BRIGHTIMG            "加亮图片操作\n加亮"
+    ID_SETREGON             "设置一个区域\n区域"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CUTREGON             "剪裁区域\n剪裁区域"
+    ID_PAGEUP               "界面向前10个\n向前翻页"
+    ID_LEFT                 "界面向前\n向前"
+    ID_RIGHT                "界面相后\n向后"
+    ID_PAGEDOWN             "界面向后10个\n向后翻页"
+    ID_ZOOMIO               "拖动放大\n拖动放大"
+    ID_BAR                  "画园柱棒图\n棒图"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "新界面\n新界面"
+    ID_FILE_OPEN            "打开已有文件\n打开文件"
+    ID_FILE_SAVE            "保存编辑文件\n保存文件"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SELDBF               "选择数据库\n选择数据库"
+    ID_GOTOTOP              "选中对象置前\n置前"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PCTPIE               "百分比专用饼图\n百分饼图"
+    IDC_TOSQRT              "通过手工无法转为正园，由系统自动计算\n转为正园"
+    IDC_GETNM               "ID发生改变时自动更新为新的名字"
+    ID_METER1               "仪表部件1，指针式仪表\n指针仪表"
+    ID_METER2               "仪表部件2，水平刻度\n水平刻度"
+    ID_METER3               "仪表部件3，垂直刻度\n垂直刻度"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_METER4               "仪表部件4，数码型仪表\n数码仪表"
+    ID_RESERVOIR            "水电厂水库多边形图形\n水库"
+    ID_POLYZONE             "画一个多边形电力行政区域\n绘制电力区域"
+    IDC_GETID               "ID发生改变时，自动更新为新的ID"
+    IDC_OUTSVG              "输出为SVG图形格式文件\n输出SVG格式"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_STRAIGHT            "线条完全对直\n线条完全对直"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_INSVG               "打开SVG格式文件\n打开SVG格式文件"
+    IDC_MULTEXT             "多行文本动态对象\n多行文本对象"
+    ID_SYSPIE               "系统信息饼图\n系统信息饼图"
+    IDC_INSVG_BAT           "成批导入SVG文件\n批量导入SVG文件"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\PowerPaint.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

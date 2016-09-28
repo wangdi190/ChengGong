@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WelcomePage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/WelcomePage.res" /d "_DEBUG" /d "_AFXDLL" "C:\四川电压无功\陈工\WelcomePage\WelcomePage.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/WelcomePage.pdb" /debug /machine:I386 /def:".\WelcomePage.def" /out:"C:\四川电压无功\bin_avc\WelcomePage.dll" /implib:"Debug/WelcomePage.lib" /pdbtype:sept /libpath:"../lib" 
+".\Debug\BCMenu.obj"
+".\Debug\BtnST.obj"
+".\Debug\ExTabWnd.obj"
+".\Debug\FirstDlg.obj"
+".\Debug\MainFrame.obj"
+".\Debug\StdAfx.obj"
+".\Debug\WelcomePage.obj"
+".\Debug\WelcomePage.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+WelcomePage.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
